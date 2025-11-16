@@ -64,5 +64,3 @@ config_gmunitx.json
 static_build/
 static_build1/
 
-# 不需要workflows目录
-index.html
