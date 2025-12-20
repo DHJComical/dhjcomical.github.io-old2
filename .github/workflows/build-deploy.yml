@@ -2,9 +2,6 @@
 name: Build and Deploy Static Website
 
 on:
-  # 每天定时运行（UTC时间0点，北京时间8点）
-  schedule:
-    - cron: '0 0 * * *'
   # 允许手动触发
   workflow_dispatch:
   # 新增：当有推送事件时触发
